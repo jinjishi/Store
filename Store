@@ -1,0 +1,18 @@
+# Store
+package intership2.dao;
+public class Store{
+public String Storeid;
+public String Storename;
+public String GetterStoreid() {
+	return this.Storeid;
+}
+public void SetterStoreid(String Storeid) {
+	this.Storeid=Storeid;
+}
+public String GetterStorename() {
+	return this.Storename;
+}
+public void SetterStorename(String Storename) {
+	this.Storename=Storename;
+}
+}
