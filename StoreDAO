@@ -1,0 +1,12 @@
+package intership2.dao;
+import java.lang.Exception;
+import java.util.ArrayList;
+
+import intership2.dao.Store;
+public interface StoreDAO {
+	public boolean addStore(Store store) throws Exception; 
+	public boolean delStore(String sql) throws Exception; 
+	public boolean updateStore(String sql) throws Exception;
+	public ArrayList<Store> getStore(String sql) throws Exception;
+
+}
